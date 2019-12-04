@@ -1,0 +1,50 @@
+.main-nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  padding: 3px;
+  margin: 10px;
+  // font-family: ;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.right-nav > ul > li {
+  margin: 3px;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin-left: 10px;
+}
+
+#gear-icon {
+  margin-left: 10px;
+  font-size: 15px;
+}
+// .fa-search {
+//   margin: 10px;
+// }
+
+.right-nav i {
+
+}
